@@ -19,7 +19,7 @@ class CounterViewModel {
 }
 
 struct ContentView: View {
-    var viewModel = CounterViewModel()
+    @State var viewModel = CounterViewModel()
 
     var body: some View {
         NavigationStack {
